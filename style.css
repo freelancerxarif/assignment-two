@@ -155,3 +155,114 @@ header .contact a{
     color: #fff;
 
   }
+
+  /* Our stories section start */
+
+  .stories{
+    background-image:url('assets/bg.png'), linear-gradient(180deg, rgba(255,255,255) 25%, rgba(254,169,19,0.3));
+    background-size: cover;
+    height: 850px;
+    margin-top: -50px;
+
+  }
+
+  .stories h3{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10px;
+    padding-top: 70px;
+  }
+
+.post{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin: 30px auto;
+    gap: 30px;
+    padding: 30px;
+
+}
+.bigPost{
+    width: 480px;
+    border-radius: 20px;
+}
+.bigPost .bContent{
+    padding:30px 25px;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+}
+.bContent .date{
+    background-color: #4ddee6;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-top: -55px !important;
+    position: absolute;
+}
+.bContent h4{
+    font-size: 20px;
+    margin: 30px 0px;
+}
+.bContent .text{
+    font-size: 13px;
+    line-height: 25px;
+}
+.smContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    
+}
+
+.bigPost img{
+    width: 480px;
+    border-radius: 20px 20px 0 0;
+}
+.smallPost{
+    width: 250px;
+    height: 180px;
+}
+.sContent{
+    padding:15px 15px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+.smallPost img{
+    width: 250px;
+    border-radius: 10px 10px 0 0;
+}
+.smallPost p{
+    background-color: #95b226;
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-top: -32px !important;
+    position: absolute;
+}
+.smallPost h4{
+    font-size: 14px;
+    line-height: 25px;
+    margin: 4px 0px;
+}
+
+.button{
+    position: relative;
+    width: 100%;
+}
+
+.button a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;;
+    padding: 12px 50px;
+    border-radius: 10px;
+}
+
+
