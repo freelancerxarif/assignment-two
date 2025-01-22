@@ -265,4 +265,78 @@ header .contact a{
     border-radius: 10px;
 }
 
+/* footer section start   */
 
+footer .bg1{
+    width: 100%;
+    height: 100px;
+    background-color:#4cabb8;
+   
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -40px;
+}
+footer .bg2{
+    width: 100%;
+    height: 250px;
+    background-color: #01acfd;
+    position: absolute;
+    
+    
+}
+
+.bg2 .logo{
+    width: 300px;
+}
+
+.bg2 .logoText{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg2 .logo img{
+    width: 150px;
+    display: inline-block;
+}
+
+.bg2 .logo p{
+    color: #fff;
+    font-size: 15px;
+    margin: 20px 0px;
+    line-height: 28px;
+}
+
+.bg2 .logo h3{
+   display: inline;
+   font-size: 28px;
+   color: #fff;
+}
+ 
+.bg2 .link h3 , .social h3{
+    color: #fff;
+    font-size: 20px;
+    margin: 5px 0px 15px 0px;
+}
+
+.bg2 .link li{
+    list-style: none;
+    margin: 10px 0px;
+
+}
+
+.bg2 .link a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    margin: 30px 0px;
+}
+
+.social .image img{
+    width: 30px;
+    margin: 20px 2px;
+}
