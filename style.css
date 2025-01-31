@@ -43,6 +43,9 @@ nav ul li a{
     font-size: 16px;
     font-weight: 450;
 }
+.bars{
+  display: none;
+}
 
 header .contact a{
     text-decoration: none;
@@ -52,6 +55,10 @@ header .contact a{
     border-radius: 8px;
     color: #fff;
     font-weight: 500;
+}
+
+.marq{
+  width: 80%; background-color: #000; color: #fff; margin: 10px auto;
 }
 
   /* Banner section start */
@@ -69,8 +76,9 @@ header .contact a{
   }
 
   .banner p{
-    font-size: 18px;
+    font-size: 17px;
     margin: 25px 0px;
+    line-height: 35px;
   }
 
   .banner img{
@@ -95,7 +103,7 @@ header .contact a{
     background-image: url('assets/bg.png');
     background-size: cover;
     width: 100%;
-    height: 300px;
+    padding-bottom: 300px;
   }
 
   .curriclm{
@@ -161,7 +169,7 @@ header .contact a{
   .stories{
     background-image:url('assets/bg.png'), linear-gradient(180deg, rgba(255,255,255) 25%, rgba(254,169,19,0.3));
     background-size: cover;
-    height: 850px;
+    padding-bottom: 60px;
     margin-top: -50px;
 
   }
@@ -281,7 +289,7 @@ footer .bg1{
 }
 footer .bg2{
     width: 100%;
-    height: 250px;
+    padding-bottom: 40px;
     background-color: #01acfd;
     position: absolute;
     
@@ -339,4 +347,138 @@ footer .bg2{
 .social .image img{
     width: 30px;
     margin: 20px 2px;
+}
+
+.hoverEffect:hover{
+  background-color: #fea301;
+  color: #000;
+  transition: all 0,8s ease;
+}
+.hoverEffect2:hover{
+  background-color: #000;
+  color: #fff;
+  transition: all 0,8s ease;
+}
+
+/* media quary start responsive  */
+
+@media(max-width:480px) {
+  .width , header{
+    width: 100% !important;
+    padding:8px;
+    align-items: center;
+  }
+  .marq{
+    width: 100%; 
+    background-color: #000;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .border{
+    border-bottom: 1px solid #fea301;
+  }
+  .logo img{
+    width: 50px !important;
+
+  }
+
+   nav ul a , .contact{
+    display: none;
+   }
+  h1{
+    display: none;
+  }
+  .bars{
+    display: block;
+  }
+  .bars i{
+    font-size: 28px;
+  }
+
+  /* banner section style */
+  .banner{
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .banner img{
+    width: 340px;
+  }
+  .banner .text{
+    margin-top: 40px;
+  }
+  .banner h3{
+    font-size: 33px;
+    text-align: center;
+  }
+  .banner p{
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0px;
+  }
+  .btnn{
+    text-align: center;
+  }
+  .banner a{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 auto !important;
+  }
+  .curriclm{
+    flex-direction: column;
+  }
+  .curriclm .cardSection{
+    margin-bottom: 40px;
+    width: 390px;
+    border-radius: 20px;
+  }
+  .arrow{
+    display: none;
+  }
+
+  /* stories responsive */
+  .bigPost{
+    display: none;
+  }
+  .stories h3 , .title{
+    font-size: 22px;
+  }
+  .smContainer{
+    gap: 20px;
+  }
+  .smallPost{
+    width: 190px;
+    margin-bottom: 15px;
+
+  }
+  .smallPost img{
+    width: 190px;
+  }
+  .smallPost p{
+    font-size: 10px;
+  }
+  .smallPost h4{
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .button a{
+    font-size: 14px;
+    padding: 10px 40px;
+  }
+
+  /* footer responsive */
+
+  footer .bg1{
+    display: none;
+  }
+
+  footer .content{
+    padding-top: 50px;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: left;
+    margin: 0px 0px 0px 20px;
+  }
+  footer .link{
+    margin: 10px 0px;
+  }
 }
